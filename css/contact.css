@@ -4,7 +4,7 @@
 /* Mobile */
 @media only screen and (min-width: 0em) {
   #int-hero {
-    min-height: 50vh;
+    min-height: 10vh;
     background: url("/images/about-mobile.jpg");
     background-size: cover;
     background-position: center;
@@ -19,7 +19,7 @@
     content: '';
     position: absolute;
     display: block;
-    height: 100%;
+    height: 50%;
     width: 100%;
     background: #000;
     opacity: .5;
@@ -38,7 +38,7 @@
     content: '';
     position: absolute;
     display: block;
-    height: 200%;
+    height: 50$;
     max-height: 2.96875em;
     width: 40%;
     background: transparent;
@@ -63,8 +63,8 @@
 /* Small Desktop */
 @media only screen and (min-width: 64em) {
   #int-hero {
-    min-height: 15em;
-    height: 15em;
+    min-height: 5em;
+    height: 5em;
     margin-top: 7.4em;
     background-attachment: fixed;
     background-position: center 80%;
